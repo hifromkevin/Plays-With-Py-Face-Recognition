@@ -26,32 +26,38 @@ Ensure you have the following installed:
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
-3. **Install CMake**
+3. **Install Python**
+
+   ```bash
+   brew install python3
+   ```
+
+4. **Install CMake**
 
    ```bash
    brew install cmake
    ```
 
-4. **Create and Activate a Virtual Environment**
+5. **Create and Activate a Virtual Environment**
 
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate
    ```
 
-5. **Install Dependencies**
+6. **Install Dependencies**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-6. **Run the Project**
+7. **Run the Project**
 
    ```bash
    python main.py
    ```
 
-7. **Deactivate the Virtual Environment (when done)**
+8. **Deactivate the Virtual Environment (when done)**
    ```bash
    deactivate
    ```
